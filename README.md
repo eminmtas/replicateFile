@@ -32,3 +32,10 @@ cargo run "find" "replace" Cargo.toml CopyOfCargoFile.toml
 diff Cargo.toml CopyOfCargoFile.toml
 
 ```
+
+## Change text in a file and make a copy of the file
+
+```bash
+#chanege the name of author
+cargo run "M.Emin TAŞ" "Emin TAŞ" Cargo.toml ChangeProjectAuthorCargo.toml
+```
