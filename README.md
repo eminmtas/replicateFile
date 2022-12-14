@@ -27,4 +27,8 @@ cargo build
 # it gets 4 arguments so the 3rd and 4th arg should be
 # the existing file and the filename you want to create
 cargo run "find" "replace" Cargo.toml CopyOfCargoFile.toml
+
+# to check differences between two files
+diff Cargo.toml CopyOfCargoFile.toml
+
 ```
