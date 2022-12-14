@@ -33,7 +33,7 @@ fn main() {
         }
     };
 }
-//how to use
+//print how to use
 fn print_usage() {
     eprintln!("{} - change occurences of one string into another","quickreplace".green());
     eprintln!("Usage: quickreplace <target> <replacement> <INPUT> <OUTPUT>");
