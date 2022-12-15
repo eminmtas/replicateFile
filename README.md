@@ -39,3 +39,14 @@ diff Cargo.toml CopyOfCargoFile.toml
 #chanege the name of author
 cargo run "M.Emin TAŞ" "Emin TAŞ" Cargo.toml ChangeProjectAuthorCargo.toml
 ```
+
+## Second example
+
+```bash
+# writing "Hello, world" to test.txt file 
+echo "Hello, world" > test.txt
+
+# changing the "world" word to "Rust"
+# and saving it to a new file named test-modified.txt
+cargo run "world" "Rust" test.txt test-modified.txt
+```
